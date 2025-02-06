@@ -52,11 +52,11 @@
 
         ResetLeft {
             bindings = <&sys_reset>;
-            key-positions = <0 1>;
+            key-positions = <0 1 2>;
         };
         ResetRight {
             bindings = <&sys_reset>;
-            key-positions = <8 9>;
+            key-positions = <7 8 9>;
         };
 
     };
