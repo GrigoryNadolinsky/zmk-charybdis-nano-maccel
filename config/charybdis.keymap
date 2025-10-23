@@ -230,9 +230,9 @@
         Mouse {
             label = "Mou";
             bindings = <
-&to 0                             &to 0                             &to 0  &to 0  &to 0                             &to 0                               &to 0         &to 0      &to 0                 &to 0      &to 0            &to 0
-&automouse_clics LEFT_SHIFT RCLK  &automouse_clics LEFT_SHIFT LCLK  &to 0  &to 0  &automouse_clics LEFT_SHIFT LCLK  &automouse_clics LEFT_SHIFT RCLK    &to 0         &to 0      &to 0                 &to 0      &to 0            &to 0
-&to 0                             &to 0                             &to 0  &to 0  &to 0                             &to 0                               &lt 6 ESCAPE  &lt 2 TAB  &double_space_to_dot  &kp ENTER  &lt 1 BACKSPACE
+&kp Q        &kp W        &kp E        &kp R      &ht RA(T) T  &kp Y          &kp U         &ht RA(I) I         &kp O                 &kp P      &ht LGUI A       &ht LALT S
+&automouse_clics LEFT_SHIFT RCLK  &automouse_clics LEFT_SHIFT LCLK  &ht LCTRL D  &ht LSHFT F  &automouse_clics LEFT_SHIFT LCLK  &automouse_clics LEFT_SHIFT RCLK    &ht LALT L    &ht LGUI SEMICOLON  &kp Z                 &kp X      &kp C            &kp V
+&kp B        &kp N        &ht RA(M) M  &kp COMMA  &kp DOT      &kp SLASH      &lt 6 ESCAPE  &lt 2 TAB  &double_space_to_dot  &kp ENTER  &lt 1 BACKSPACE
             >;
         };
 
