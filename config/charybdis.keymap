@@ -191,7 +191,7 @@
         Base {
             label = "Bas";
             bindings = <
-&bootloader  &kp W        &kp E        &kp R      &ht RA(T) T  &kp Y          &kp U         &ht RA(I) I         &kp O                   &bootloader  &ht LGUI A       &ht LALT S
+&kp Q  &kp W        &kp E        &kp R      &ht RA(T) T  &kp Y          &kp U         &ht RA(I) I         &kp O                   &kp P  &ht LGUI A       &ht LALT S
 &ht LCTRL D  &ht LSHFT F  &kp G        &kp H      &ht LSHFT J  &ht LCTRL K    &ht LALT L    &ht LGUI SEMICOLON  &kp Z                   &kp X        &kp C            &kp V
 &kp B        &kp N        &ht RA(M) M  &kp COMMA  &kp DOT      &kp SLASH      &lt 6 ESCAPE  &lt 2 TAB           &double_space_to_comma  &kp ENTER    &lt 1 BACKSPACE
             >;
