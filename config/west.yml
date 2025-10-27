@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: inorichi
+    - name: grigorynadolinsky
       url-base: https://github.com/GrigoryNadolinsky
   projects:
     - name: zmk
@@ -10,7 +10,7 @@ manifest:
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver-maccel
-      remote: inorichi
+      remote: grigorynadolinsky
       revision: main
   self:
     path: config
