@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV 1
@@ -191,9 +192,9 @@
         Base {
             label = "Bas";
             bindings = <
-&kp Q  &kp W        &kp E        &kp R      &ht RA(T) T  &kp Y          &kp U         &ht RA(I) I         &kp O                   &kp P  &ht LGUI A       &ht LALT S
-&ht LCTRL D  &ht LSHFT F  &kp G        &kp H      &ht LSHFT J  &ht LCTRL K    &ht LALT L    &ht LGUI SEMICOLON  &kp Z                   &kp X        &kp C            &kp V
-&kp B        &kp N        &ht RA(M) M  &kp COMMA  &kp DOT      &kp SLASH      &lt 6 ESCAPE  &lt 2 TAB           &double_space_to_comma  &kp ENTER    &lt 1 BACKSPACE
+&kp Q        &kp W        &kp E        &kp R      &ht RA(T) T  &kp Y          &kp U         &ht RA(I) I         &kp O                   &kp P      &ht LGUI A       &ht LALT S
+&ht LCTRL D  &ht LSHFT F  &kp G        &kp H      &ht LSHFT J  &ht LCTRL K    &ht LALT L    &ht LGUI SEMICOLON  &kp Z                   &kp X      &kp C            &kp V
+&kp B        &kp N        &ht RA(M) M  &kp COMMA  &kp DOT      &kp SLASH      &lt 6 ESCAPE  &lt 2 TAB           &double_space_to_comma  &kp ENTER  &lt 1 BACKSPACE
             >;
         };
 
@@ -209,8 +210,8 @@
         Symbol {
             label = "Sym";
             bindings = <
-&kp RA(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)          &kp LS(NUMBER_4)           &ht LS(N5) LS(NUMBER_6)  &kp RA(BACKSLASH)     &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)   &kp RA(LS(SEMICOLON))  &kp RA(SINGLE_QUOTE)  &kp BACKSLASH  &kp LS(NUMBER_8)
-&kp MINUS         &kp LS(EQUAL)     &kp EQUAL                 &kp LS(NUMBER_7)           &kp LS(NUMBER_9)         &kp LS(NUMBER_0)      &kp RA(SEMICOLON)     &kp RA(LS(APOSTROPHE))  &kp RA(MINUS)          &kp LS(NUMBER_1)      &kp RA(SLASH)  &triple_dot_to_ellipsis
+&kp RA(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)          &kp LS(NUMBER_4)           &ht LS(N5) LS(NUMBER_6)  &kp RA(BACKSLASH)     &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)   &kp RA(LS(SEMICOLON))  &kp RA(SINGLE_QUOTE)  &kp BACKSLASH            &kp LS(NUMBER_8)
+&kp MINUS         &kp LS(EQUAL)     &kp EQUAL                 &kp LS(NUMBER_7)           &kp LS(NUMBER_9)         &kp LS(NUMBER_0)      &kp RA(SEMICOLON)     &kp RA(LS(APOSTROPHE))  &kp RA(MINUS)          &kp LS(NUMBER_1)      &triple_dot_to_ellipsis  &kp RA(SLASH)
 &kp RA(COMMA)     &kp LS(MINUS)     &kp RA(LS(LEFT_BRACKET))  &kp RA(LS(RIGHT_BRACKET))  &kp RA(LS(COMMA))        &kp RA(LS(PERIOD))    &none                 &none                   &none                  &trans                &lt 3 DELETE
             >;
         };
