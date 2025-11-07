@@ -178,6 +178,8 @@
             label = "DOUBLE_SPACE_TO_COMMA";
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&double_space_to_comma_macro>;
+
+            tapping-term-ms = <400>;
         };
 
         automouse_clics: automouse_clics {
